@@ -134,7 +134,8 @@ function mouseReleased(){
 }
 
 function keyPressed(){
-  if(keyCode === "space"){
-      sling.attach(ball.body);
-  }
+	if(keyCode===32){
+	
+		sling.attach(this.ball);
+	}
 }

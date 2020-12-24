@@ -15,6 +15,7 @@ class Chain{
         this.sling.bodyA = null;
     }
     attach(body){
+        console.log(body);
         this.sling.bodyA = body;
         }
 
